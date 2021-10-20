@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IDNP_App_Medical_Lab4">
         <activity
+            android:name=".NewPatientActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
